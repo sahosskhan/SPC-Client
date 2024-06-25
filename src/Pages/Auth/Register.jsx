@@ -57,21 +57,7 @@ const Register = () => {
 
     return (
         <div>
-            {/* <Helmet>
-        <title>Registration | Contes Buddy</title>
-      </Helmet> */}
-            <div className="flex justify-center text-2xl mb-10 mt-5 items-center py-4 overflow-x-auto whitespace-nowrap">
-                <Link to="/" className="text-gray-600 ">
-                    Home
-                </Link>
-                <span className="mx-5 text-gray-500  rtl:-scale-x-100">
-                    <i className="fa-solid text-base fa-chevron-right"></i>
-                </span>
-                <Link to='/register' className="text-sky-600  hover:underline">
-                    Register
-                </Link>
-            </div>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center my-6">
                 <div className="w-full max-w-2xl p-6 m-auto mx-auto bg-sky-100 rounded shadow-md ">
                     <div className="flex  justify-center mx-auto">
                     </div>
@@ -139,7 +125,7 @@ const Register = () => {
                                 <button
                                     type='button'
                                     onClick={togglePasswordVisibility}
-                                    className='absolute top-1/2 right-4 transform -translate-y-1/2 text-skynpm install express-500 hover:text-skynpm install express-700 focus:outline-none'
+                                    className='absolute top-1/2 right-4 transform -translate-y-1/2 text-sky-500 hover:text-sky-600 express-700 focus:outline-none'
                                 >
                                     {showPassword ? <FaEyeSlash className='text-2xl' /> : <FaEye className='text-2xl' />}
                                 </button>
@@ -167,7 +153,7 @@ const Register = () => {
                                <button
                                     type='button'
                                     onClick={togglePasswordVisibility}
-                                    className='absolute top-1/2 right-4 transform -translate-y-1/2 text-skynpm install express-500 hover:text-skynpm install express-700 focus:outline-none'
+                                    className='absolute top-1/2 right-4 transform -translate-y-1/2 text-sky-500 hover:text-sky-600 express-700 focus:outline-none'
                                 >
                                     {showPassword ? <FaEyeSlash className='text-2xl' /> : <FaEye className='text-2xl' />}
                                 </button>
