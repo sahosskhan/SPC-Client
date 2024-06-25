@@ -124,7 +124,7 @@ const Navbar = () => {
           <summary className="text-white">Add</summary>
           <ul className="p-2 bg-sky-900 rounded-lg ">
           <li className="text-white hover:bg-black rounded-box">
-                  <a >Add Player</a>
+                  <a href="/add-players">Add Player</a>
                 </li>
                 <li className="text-white hover:bg-black rounded-box">
                   <a >Add Resource</a>

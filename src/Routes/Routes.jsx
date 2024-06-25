@@ -3,6 +3,7 @@ import MainLayouts from "../Layouts/MainLayouts";
 import Home from "../Pages/Home/Home";
 import Register from "../Pages/Auth/Register";
 import Login from "../Pages/Auth/Login";
+import AddPlayer from "../Pages/Admin/AddPlayer";
 
 export const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
         {
           path: "/login",
           element: <Login/>
+        },
+        {
+          path: "/add-players",
+          element: <AddPlayer/>
         },
       ]
     },
