@@ -6,7 +6,9 @@ const MainLayouts = () => {
     return (
         <>
         <Navbar/>
-          <Outlet/>  
+      
+        <Outlet/>
+     
         </>
     );
 };

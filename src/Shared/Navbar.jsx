@@ -46,13 +46,13 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li className="text-white hover:bg-black rounded-lg"><a>Team</a></li>
+      <li className="text-white hover:bg-black rounded-lg"><a href="/team">Team</a></li>
         <li className="text-white hover:bg-black rounded-lg"><a>Reels</a></li>
         <li className="text-white hover:bg-black rounded-lg"><a>Resource</a></li>
         <li className="text-white hover:bg-black rounded-lg"><a>Shop</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">
+    <a href="/" className="btn btn-ghost text-xl">
         <img className="h-10" src="logo.png" alt="" />
     </a>
     <div className="navbar-center hidden lg:flex">
@@ -70,7 +70,7 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li className="text-white hover:bg-black rounded-lg"><a>Team</a></li>
+      <li className="text-white hover:bg-black rounded-lg"><a href="/team">Team</a></li>
         <li className="text-white hover:bg-black rounded-lg"><a>Reels</a></li>
         <li className="text-white hover:bg-black rounded-lg"><a>Resource</a></li>
         <li className="text-white hover:bg-black rounded-lg"><a>Shop</a></li>

@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import Register from "../Pages/Auth/Register";
 import Login from "../Pages/Auth/Login";
 import AddPlayer from "../Pages/Admin/AddPlayer";
+import Team from './../Pages/Admin/Team';
 
 export const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
         {
           path: "/add-players",
           element: <AddPlayer/>
+        },
+        {
+          path: "/team",
+          element: <Team/>
         },
       ]
     },
